@@ -48,7 +48,7 @@ const Login = () => {
           <h2 className="text-center">
             Don't you have an account?{" "}
             <span className="text-blue-500">
-              <Link to={"/register"}>Sign up</Link>
+              <Link to={"/register"}>Register</Link>
             </span>
           </h2>
         </div>
