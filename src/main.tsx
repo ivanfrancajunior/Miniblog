@@ -15,10 +15,10 @@ import Post from "./pages/Post.tsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App />,  
     children:[
       {
-        path: "/home",
+        path: "/",
         element: <Home />,
       },
       {
